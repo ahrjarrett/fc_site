@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Email Marketing and Social Media Marketing Done for Small Businesses</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Let us do the work for you. We craft professional email campaigns, update your social media profiles, and give you an online business profile to keep you top-of-mind with your customers. Learn more now!">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Email Marketing and Social Media Marketing Done for Small Businesses">
+  <meta property="og:description" content="Let us do the work for you. We craft professional email campaigns, update your social media profiles, and give you an online business profile to keep you top-of-mind with your customers. Learn more now!">
+  <meta property="og:url" content="http://www.followclosely.com/">
+  <meta property="og:site_name" content="FollowClosely">
+  <link rel="stylesheet" href="css.style.css">
+</head>
+<body>
+  <p>FollowClosely</p>
+  <img src="images/followclosely.png">
+  
+
+
+  <script src="js/script.js"></script>
+
+
+  <!-- Mustache call of JSON file 
+    components/scripts/template.js
+    builds/development/js/data.json
+      removed:
+        <p><img src="images/artists/{{shortname}}_tn.jpg"></p> -->
+  <script id="speakerstpl" type="text/template">
+    {{#speakers}}
+      <div class="speaker">
+        <h2>{{name}}</h2>
+        <h3>{{renown}}</h3>
+      </div>
+    {{/speakers}}
+  </script>
+
+
+</body>
+</html>
+

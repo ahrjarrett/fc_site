@@ -1,0 +1,12 @@
+{
+  "name": "fc_patterns",
+  "version": "0.0.0",
+  "description": "pattern guide for scaffolding FollowClosely website with gulp workflow automation",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "author": "andrew jarrett",
+  "license": "ISC"
+}
